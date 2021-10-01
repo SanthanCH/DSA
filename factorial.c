@@ -3,8 +3,6 @@
 */
 
 #include <stdio.h>
-
-/*User defined function*/
 void factorial(int n)
 {
     int i;
@@ -12,7 +10,7 @@ void factorial(int n)
 
     // shows error if the user enters a negative integer
     if (n < 0)
-        printf("\nError! Factorial of a negative number doesn't exist.");
+        printf("\nFactorial of a negative no doesnot exist.");
         
     else 
     {
@@ -31,7 +29,7 @@ int main(void)
     int n;
     
     /*Taking the user inputs*/
-    printf("Enter an integer: ");
+    printf("Enter any integer you want: ");
     scanf("%d", &n);
     
     /*Function call*/
