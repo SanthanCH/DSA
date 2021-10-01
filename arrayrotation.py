@@ -1,21 +1,23 @@
-//program for array rotation in python
-
-def rotateArray(arr, n, d):
-	temp = []
-	i = 0
-	while (i < d):
-		temp.append(arr[i])
-		i = i + 1
-	i = 0
-	while (d < n):
-		arr[i] = arr[d]
-		i = i + 1
-		d = d + 1
-	arr[:] = arr[: i] + temp
-	return arr
-
-arr = [1, 2, 3, 4, 5, 6, 7]
-print("Array after left rotation is: ", end=' ')
-print(rotateArray(arr, len(arr), 2))
-
-
+#Initialize array     
+arr = [1, 2, 3, 4, 5];     
+#n determine the number of times an array should be rotated    
+n = 3;    
+     
+#Displays original array    
+print("Original array: ");    
+for i in range(0, len(arr)):    
+    print(arr[i]),     
+     
+#Rotate the given array by n times toward left    
+for i in range(0, n):    
+    #Stores the first element of the array    
+    first = arr[0];    
+        
+    for j in range(0, len(arr)-1):    
+        #Shift element of array by one    
+        arr[j] = arr[j+1];    
+            
+    #First element of array will be added to the end    
+    arr[len(arr)-1] = first;    
+     
+print();    
