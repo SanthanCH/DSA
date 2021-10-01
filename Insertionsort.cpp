@@ -5,7 +5,8 @@ using namespace std;
 /* Function to sort an array using insertion sort*/
 void insertionSort(int arr[], int n)
 {
-	int i, key, j;
+	int i, key;
+    int j;
 	for (i = 1; i < n; i++)
 	{
 		key = arr[i];
