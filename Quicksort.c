@@ -31,7 +31,7 @@ void quicksort(int number[25],int first,int last){
 int main(){
    int i, count, number[25];
 
-   printf("How many elements are u going to enter?: ");
+   printf("How many elements do you enter?: ");
    scanf("%d",&count);
 
    printf("Enter %d elements: ", count);
@@ -40,7 +40,7 @@ int main(){
 
    quicksort(number,0,count-1);
 
-   printf("Order of Sorted elements: ");
+   printf("Order of the  Sorted elements: ");
    for(i=0;i<count;i++)
       printf(" %d",number[i]);
 
