@@ -46,17 +46,17 @@ int main() {
             display();
             break;
         case 3:
-            printf("Enter the element to be inserted : ");
+            printf("Enter elements to be inserted : ");
             scanf("%d", &data);
             addtoempty(data);
             break;
         case 4:
-            printf("Enter the element to be inserted : ");
+            printf("Enter elements to be inserted : ");
             scanf("%d", &data);
             addatbeg(data);
             break;
         case 5:
-            printf("Enter the element to be inserted : ");
+            printf("Enter element  to be inserted : ");
             scanf("%d", &data);
             addatend(data);
             break;
@@ -92,7 +92,7 @@ int main() {
 
 void create_list() {
     int i, n, data;
-    printf("Enter the number of nodes : ");
+    printf("Enter number of nodes : ");
     scanf("%d", &n);
     start = NULL;
     if (n == 0)
@@ -269,4 +269,4 @@ void reverse() {
     }
     start = p1;
     printf("List reversed\n");
-} /*End of reverse()*/
+   }
