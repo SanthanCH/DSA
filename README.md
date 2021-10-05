@@ -13,6 +13,10 @@ This Repository contains all Data Structures and Algorithms Implementation in po
 
      This Folder contains all queue and stack programms
 
+  3. Tree
+
+     This Folder contains all **Tree** Data Structure implementation
+
 *
 
 ---
